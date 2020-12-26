@@ -1,104 +1,329 @@
+import Search from './Icons/Search'
+import Folder from './Icons/Folder'
+import Wallet from './Icons/Wallet'
+import Graph from './Icons/Graph'
+import Bookmark from './Icons/Bookmark'
+import Category from './Icons/Category'
+import Home from './Icons/Home'
+import Notification from './Icons/Notification'
+import Chat from './Icons/Chat'
+import Heart from './Icons/Heart'
+import Heart2 from './Icons/Heart2'
+import Paper from './Icons/Paper'
+import PaperPlus from './Icons/PaperPlus'
+import PaperNegative from './Icons/PaperNegative'
+import PaperFall from './Icons/PaperFall'
+import PaperDownload from './Icons/PaperDownload'
+import PaperUpload from './Icons/PaperUpload'
+import Send from './Icons/Send'
+import Password from './Icons/Password'
+import Swap from './Icons/Swap'
+import Work from './Icons/Work'
+import Scan from './Icons/Scan'
+import Activity from './Icons/Activity'
+import Calendar from './Icons/Calendar'
+import Message from './Icons/Message'
+import Video from './Icons/Video'
+import Plus from './Icons/Plus'
+import Chart from './Icons/Chart'
+import Game from './Icons/Game'
+import Bag from './Icons/Bag'
+import Bag2 from './Icons/Bag2'
+import TicketStar from './Icons/TicketStar'
+import MoreCircle from './Icons/MoreCircle'
+import MoreSquare from './Icons/MoreSquare'
+import Discount from './Icons/Discount'
+import Buy from './Icons/Buy'
+import InfoCircle from './Icons/InfoCircle'
+import InfoSquare from './Icons/InfoSquare'
+import Danger from './Icons/Danger'
+import CloseSquare from './Icons/CloseSquare'
+import TickSquare from './Icons/TickSquare'
+import Discovery from './Icons/Discovery'
+import Location from './Icons/Location'
+import Document from './Icons/Document'
+import Setting from './Icons/Setting'
+import TimeSquare from './Icons/TimeSquare'
+import TimeCircle from './Icons/TimeCircle'
+import VolumeUp from './Icons/VolumeUp'
+import VolumeDown from './Icons/VolumeDown'
+import VolumeOff from './Icons/VolumeOff'
+import Star from './Icons/Star'
+import Ticket from './Icons/Ticket'
+import Camera from './Icons/Camera'
+import User from './Icons/User'
+import AddUser from './Icons/AddUser'
+import TwoUsers from './Icons/TwoUsers'
+import People from './Icons/People'
+import Login from './Icons/Login'
+import Logout from './Icons/Logout'
+import Download from './Icons/Download'
+import Upload from './Icons/Upload'
+import Voice from './Icons/Voice'
+import Voice2 from './Icons/Voice2'
+import Delete from './Icons/Delete'
+import Edit from './Icons/Edit'
+import EditSquare from './Icons/EditSquare'
+import Play from './Icons/Play'
+import ShieldDone from './Icons/ShieldDone'
+import ShieldFall from './Icons/ShieldFall'
+import Show from './Icons/Show'
+import Hide from './Icons/Hide'
+import Filter from './Icons/Filter'
+import Filter2 from './Icons/Filter2'
+import Image from './Icons/Image'
+import Image2 from './Icons/Image2'
+import Call from './Icons/Call'
+import Calling from './Icons/Calling'
+import CallMissed from './Icons/CallMissed'
+import CallSilent from './Icons/CallSilent'
+import Lock from './Icons/Lock'
+import Unlock from './Icons/Unlock'
+import ChevronDownCircle from './Icons/ChevronDownCircle'
+import ChevronRightCircle from './Icons/ChevronRightCircle'
+import ChevronUpCircle from './Icons/ChevronUpCircle'
+import ChevronLeftCircle from './Icons/ChevronLeftCircle'
+import ChevronDown from './Icons/ChevronDown'
+import ChevronRight from './Icons/ChevronRight'
+import ChevronUp from './Icons/ChevronUp'
+import ChevronLeft from './Icons/ChevronLeft'
+import ArrowDownSquare from './Icons/ArrowDownSquare'
+import ArrowRightSquare from './Icons/ArrowRightSquare'
+import ArrowUpSquare from './Icons/ArrowUpSquare'
+import ArrowLeftSquare from './Icons/ArrowLeftSquare'
+import ArrowDown from './Icons/ArrowDown'
+import ArrowRight from './Icons/ArrowRight'
+import ArrowUp from './Icons/ArrowUp'
+import ArrowLeft from './Icons/ArrowLeft'
+import CaretRight from './Icons/CaretRight'
+import CaretDown from './Icons/CaretDown'
+import CaretUp from './Icons/CaretUp'
+import CaretLeft from './Icons/CaretLeft'
+
 export { IconlyProvider } from './lib/context'
 export { useIconlyTheme } from './lib/context'
+
 /** Icons  **/
-export { default as Search } from './Icons/Search'
-export { default as Folder } from './Icons/Folder'
-export { default as Wallet } from './Icons/Wallet'
-export { default as Graph } from './Icons/Graph'
-export { default as Bookmark } from './Icons/Bookmark'
-export { default as Category } from './Icons/Category'
-export { default as Home } from './Icons/Home'
-export { default as Notification } from './Icons/Notification'
-export { default as Chat } from './Icons/Chat'
-export { default as Heart } from './Icons/Heart'
-export { default as Heart2 } from './Icons/Heart2'
-export { default as Paper } from './Icons/Paper'
-export { default as PaperPlus } from './Icons/PaperPlus'
-export { default as PaperNegative } from './Icons/PaperNegative'
-export { default as PaperFall } from './Icons/PaperFall'
-export { default as PaperDownload } from './Icons/PaperDownload'
-export { default as PaperUpload } from './Icons/PaperUpload'
-export { default as Send } from './Icons/Send'
-export { default as Password } from './Icons/Password'
-export { default as Swap } from './Icons/Swap'
-export { default as Work } from './Icons/Work'
-export { default as Scan } from './Icons/Scan'
-export { default as Activity } from './Icons/Activity'
-export { default as Calendar } from './Icons/Calendar'
-export { default as Message } from './Icons/Message'
-export { default as Video } from './Icons/Video'
-export { default as Plus } from './Icons/Plus'
-export { default as Chart } from './Icons/Chart'
-export { default as Game } from './Icons/Game'
-export { default as Bag } from './Icons/Bag'
-export { default as Bag2 } from './Icons/Bag2'
-export { default as TicketStar } from './Icons/TicketStar'
-export { default as MoreCircle } from './Icons/MoreCircle'
-export { default as MoreSquare } from './Icons/MoreSquare'
-export { default as Discount } from './Icons/Discount'
-export { default as Buy } from './Icons/Buy'
-export { default as InfoCircle } from './Icons/InfoCircle'
-export { default as InfoSquare } from './Icons/InfoSquare'
-export { default as Danger } from './Icons/Danger'
-export { default as CloseSquare } from './Icons/CloseSquare'
-export { default as TickSquare } from './Icons/TickSquare'
-export { default as Discovery } from './Icons/Discovery'
-export { default as Location } from './Icons/Location'
-export { default as Document } from './Icons/Document'
-export { default as Setting } from './Icons/Setting'
-export { default as TimeSquare } from './Icons/TimeSquare'
-export { default as TimeCircle } from './Icons/TimeCircle'
-export { default as VolumeUp } from './Icons/VolumeUp'
-export { default as VolumeDown } from './Icons/VolumeDown'
-export { default as VolumeOff } from './Icons/VolumeOff'
-export { default as Star } from './Icons/Star'
-export { default as Ticket } from './Icons/Ticket'
-export { default as Camera } from './Icons/Camera'
-export { default as User } from './Icons/User'
-export { default as AddUser } from './Icons/AddUser'
-export { default as TwoUsers } from './Icons/TwoUsers'
-export { default as People } from './Icons/People'
-export { default as Login } from './Icons/Login'
-export { default as Logout } from './Icons/Logout'
-export { default as Download } from './Icons/Download'
-export { default as Upload } from './Icons/Upload'
-export { default as Voice } from './Icons/Voice'
-export { default as Voice2 } from './Icons/Voice2'
-export { default as Delete } from './Icons/Delete'
-export { default as Edit } from './Icons/Edit'
-export { default as EditSquare } from './Icons/EditSquare'
-export { default as Play } from './Icons/Play'
-export { default as ShieldDone } from './Icons/ShieldDone'
-export { default as ShieldFall } from './Icons/ShieldFall'
-export { default as Show } from './Icons/Show'
-export { default as Hide } from './Icons/Hide'
-export { default as Filter } from './Icons/Filter'
-export { default as Filter2 } from './Icons/Filter2'
-export { default as Image } from './Icons/Image'
-export { default as Image2 } from './Icons/Image2'
-export { default as Call } from './Icons/Call'
-export { default as Calling } from './Icons/Calling'
-export { default as CallMissed } from './Icons/CallMissed'
-export { default as CallSilent } from './Icons/CallSilent'
-export { default as Lock } from './Icons/Lock'
-export { default as Unlock } from './Icons/Unlock'
-export { default as ChevronDownCircle } from './Icons/ChevronDownCircle'
-export { default as ChevronRightCircle } from './Icons/ChevronRightCircle'
-export { default as ChevronUpCircle } from './Icons/ChevronUpCircle'
-export { default as ChevronLeftCircle } from './Icons/ChevronLeftCircle'
-export { default as ChevronDown } from './Icons/ChevronDown'
-export { default as ChevronRight } from './Icons/ChevronRight'
-export { default as ChevronUp } from './Icons/ChevronUp'
-export { default as ChevronLeft } from './Icons/ChevronLeft'
-export { default as ArrowDownSquare } from './Icons/ArrowDownSquare'
-export { default as ArrowRightSquare } from './Icons/ArrowRightSquare'
-export { default as ArrowUpSquare } from './Icons/ArrowUpSquare'
-export { default as ArrowLeftSquare } from './Icons/ArrowLeftSquare'
-export { default as ArrowDown } from './Icons/ArrowDown'
-export { default as ArrowRight } from './Icons/ArrowRight'
-export { default as ArrowUp } from './Icons/ArrowUp'
-export { default as ArrowLeft } from './Icons/ArrowLeft'
-export { default as CaretRight } from './Icons/CaretRight'
-export { default as CaretDown } from './Icons/CaretDown'
-export { default as CaretUp } from './Icons/CaretUp'
-export { default as CaretLeft } from './Icons/CaretLeft'
+
+const Icons = {
+  Search,
+  Folder,
+  Wallet,
+  Graph,
+  Bookmark,
+  Category,
+  Home,
+  Notification,
+  Chat,
+  Heart,
+  Heart2,
+  Paper,
+  PaperPlus,
+  PaperNegative,
+  PaperFall,
+  PaperDownload,
+  PaperUpload,
+  Send,
+  Password,
+  Swap,
+  Work,
+  Scan,
+  Activity,
+  Calendar,
+  Message,
+  Video,
+  Plus,
+  Chart,
+  Game,
+  Bag,
+  Bag2,
+  TicketStar,
+  MoreCircle,
+  MoreSquare,
+  Discount,
+  Buy,
+  InfoCircle,
+  InfoSquare,
+  Danger,
+  CloseSquare,
+  TickSquare,
+  Discovery,
+  Location,
+  Document,
+  Setting,
+  TimeSquare,
+  TimeCircle,
+  VolumeUp,
+  VolumeDown,
+  VolumeOff,
+  Star,
+  Ticket,
+  Camera,
+  User,
+  AddUser,
+  TwoUsers,
+  People,
+  Login,
+  Logout,
+  Download,
+  Upload,
+  Voice,
+  Voice2,
+  Delete,
+  Edit,
+  EditSquare,
+  Play,
+  ShieldDone,
+  ShieldFall,
+  Show,
+  Hide,
+  Filter,
+  Filter2,
+  Image,
+  Image2,
+  Call,
+  Calling,
+  CallMissed,
+  CallSilent,
+  Lock,
+  Unlock,
+  ChevronDownCircle,
+  ChevronRightCircle,
+  ChevronUpCircle,
+  ChevronLeftCircle,
+  ChevronDown,
+  ChevronRight,
+  ChevronUp,
+  ChevronLeft,
+  ArrowDownSquare,
+  ArrowRightSquare,
+  ArrowUpSquare,
+  ArrowLeftSquare,
+  ArrowDown,
+  ArrowRight,
+  ArrowUp,
+  ArrowLeft,
+  CaretRight,
+  CaretDown,
+  CaretUp,
+  CaretLeft
+}
+
+const Iconly = ({ color, secondaryColor, strokeWidth, opacity, set, name }) => {
+  const Icon = Icons[name]
+  return (
+    <Icon
+      color={color}
+      secondaryColor={secondaryColor}
+      strokeWidth={strokeWidth}
+      opacity={opacity}
+      set={set}
+    />
+  )
+}
+
+export default Iconly
+
+export {
+  Search,
+  Folder,
+  Wallet,
+  Graph,
+  Bookmark,
+  Category,
+  Home,
+  Notification,
+  Chat,
+  Heart,
+  Heart2,
+  Paper,
+  PaperPlus,
+  PaperNegative,
+  PaperFall,
+  PaperDownload,
+  PaperUpload,
+  Send,
+  Password,
+  Swap,
+  Work,
+  Scan,
+  Activity,
+  Calendar,
+  Message,
+  Video,
+  Plus,
+  Chart,
+  Game,
+  Bag,
+  Bag2,
+  TicketStar,
+  MoreCircle,
+  MoreSquare,
+  Discount,
+  Buy,
+  InfoCircle,
+  InfoSquare,
+  Danger,
+  CloseSquare,
+  TickSquare,
+  Discovery,
+  Location,
+  Document,
+  Setting,
+  TimeSquare,
+  TimeCircle,
+  VolumeUp,
+  VolumeDown,
+  VolumeOff,
+  Star,
+  Ticket,
+  Camera,
+  User,
+  AddUser,
+  TwoUsers,
+  People,
+  Login,
+  Logout,
+  Download,
+  Upload,
+  Voice,
+  Voice2,
+  Delete,
+  Edit,
+  EditSquare,
+  Play,
+  ShieldDone,
+  ShieldFall,
+  Show,
+  Hide,
+  Filter,
+  Filter2,
+  Image,
+  Image2,
+  Call,
+  Calling,
+  CallMissed,
+  CallSilent,
+  Lock,
+  Unlock,
+  ChevronDownCircle,
+  ChevronRightCircle,
+  ChevronUpCircle,
+  ChevronLeftCircle,
+  ChevronDown,
+  ChevronRight,
+  ChevronUp,
+  ChevronLeft,
+  ArrowDownSquare,
+  ArrowRightSquare,
+  ArrowUpSquare,
+  ArrowLeftSquare,
+  ArrowDown,
+  ArrowRight,
+  ArrowUp,
+  ArrowLeft,
+  CaretRight,
+  CaretDown,
+  CaretUp,
+  CaretLeft
+}
